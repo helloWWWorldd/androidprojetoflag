@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    tools:context=".activity.MainActivity"
+    android:orientation="vertical">
+        <EditText
+            android:id="@+id/et_pesquisa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_pesquisa"
+            android:text="Search"
+            android:onClick="buttonClick"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_favorite"
+            android:text="Favorites"
+            android:onClick="goToFavorites"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_remove_favorite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remove Favorite"
+            android:textAlignment="center" />
+
+</LinearLayout>
