@@ -1,3 +1,3 @@
-androidprojetoflag
+# androidprojetoflag
 
-Rep para a aula de GIT
+Rep para version1 projeto final android (Nuno Costa)
